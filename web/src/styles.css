@@ -1,0 +1,20 @@
+:root{--navy:#0b3b53;--bg:#f4f7f6;--brand:#0b3b53}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:#123}
+.login-screen{display:flex;align-items:center;justify-content:center;height:100vh}
+.login-card{background:white;padding:32px;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.08);width:360px;text-align:center}
+.login-card input{width:100%;padding:10px;margin:8px 0;border-radius:8px;border:1px solid #e6e6e6}
+.login-card button{width:100%;padding:10px;background:var(--brand);color:white;border:none;border-radius:8px;margin-top:10px}
+.app-shell{display:flex;height:100vh}
+.sidebar{width:220px;background:white;padding:20px;border-right:1px solid #eee}
+.brand{font-weight:800;margin-bottom:20px;display:flex;align-items:center;gap:10px}
+.brand img{height:28px;width:auto;border-radius:6px}
+.sidebar-link{display:flex;gap:10px;align-items:center;padding:10px;border-radius:8px;color:#123;text-decoration:none;display:block;margin-bottom:6px}
+.sidebar-link:hover{background:#f1f5f7}
+.main-area{flex:1;padding:28px;overflow:auto}
+.page h1{margin-top:0}
+.card{background:white;padding:16px;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.04);margin-top:12px}
+.plans{display:flex;gap:12px;margin-top:8px}
+.plan{background:#fff;padding:12px;border-radius:8px;flex:1;border:1px solid #eee;text-align:center}
+.plan .price{font-weight:800;margin:8px 0}
+.hero{text-align:center}
+.hero-logo{height:64px;width:auto;margin-bottom:8px}
